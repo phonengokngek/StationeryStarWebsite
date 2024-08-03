@@ -1,0 +1,109 @@
+/* RESPONSIVE */
+@media screen and (max-width: 991.98px) {
+  .navbar-brand {
+    max-width: 180px;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
+  }
+
+  #movieNavbar .navbar-nav .nav-link {
+    font-size: 0.8rem;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+  }
+
+  #movie .owl-nav .owl-prev,
+  #movie .owl-nav .owl-next,
+  #shop .owl-nav .owl-prev,
+  #shop .owl-nav .owl-next {
+    max-width: 42px;
+    max-height: 70px;
+  }
+
+  #movie .owl-nav .owl-prev span,
+  #movie .owl-nav .owl-next span,
+  #shop .owl-nav .owl-prev span,
+  #shop .owl-nav .owl-next span {
+    font-size: 2.8rem;
+  }
+
+  .col-ct-4 {
+    width: calc(100% / 4);
+    flex: 0 0 calc(100% / 4);
+    max-width: calc(100% / 4);
+  }
+
+  .movie-detail .movie-trailer,
+  .movie-detail .movie-text{
+    display: none;
+  }
+
+
+
+}
+
+@media screen and (max-width: 767.98px) {
+  .line.active::after {
+    width: 0;
+  }
+
+  /* HEADER */
+  header .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+
+  header .navbar-toggler i {
+    color: #fbbd61;
+    font-size: 2.2rem;
+  }
+
+  #movieNavbar .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+
+  #movieNavbar .navbar-nav .active .nav-link {
+    color: #ec7532;
+  }
+
+  /* CAROUSEL */
+  #carouselMovie .carousel-item .carousel-caption {
+    font-size: 2.5rem;
+  }
+
+  /*  MOVIE ,MOVIE SHOP */
+  #movie .owl-nav .owl-prev,
+  #movie .owl-nav .owl-next,
+  #shop .owl-nav .owl-prev,
+  #shop .owl-nav .owl-next {
+    max-width: 30px;
+    max-height: 46px;
+  }
+
+  #movie .owl-nav .owl-prev span,
+  #movie .owl-nav .owl-next span,
+  #shop .owl-nav .owl-prev span,
+  #shop .owl-nav .owl-next span {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .col-ct-3 {
+    width: calc(100% / 3);
+    flex: 0 0 calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .col-ct-2 {
+    width: calc(100% / 2);
+    flex: 0 0 calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
