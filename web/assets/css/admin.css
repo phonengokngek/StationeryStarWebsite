@@ -325,6 +325,16 @@ input.quantity {
     width: 50px;
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; 
+}
+
 /* Responsive Styling */
 @media (max-width: 768px) {
   .manage-account-table thead {
