@@ -3,9 +3,7 @@ package constant;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import constant.Constant;
 import model.FacebookAccount;
-import model.GoogleAccount;
 import java.io.IOException;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.fluent.Form;
