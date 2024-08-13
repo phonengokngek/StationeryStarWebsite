@@ -3,7 +3,6 @@ package constant;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import constant.Constant;
 import model.GoogleAccount;
 import java.io.IOException;
 import org.apache.http.client.ClientProtocolException;
